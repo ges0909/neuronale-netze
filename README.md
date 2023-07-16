@@ -1,5 +1,9 @@
 # Neuronale Netze
 
-```shell
-pip freeze > requirements.txt
-```
+Künstliches Neuron:
+
+- Vektor von Eingangswerten
+- Vektor von eGwichtungen
+- Skalarprodukt beider Vektoren
+- Schwellwertfunktion
+

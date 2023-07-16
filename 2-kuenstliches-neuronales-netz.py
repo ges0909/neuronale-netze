@@ -45,7 +45,7 @@ model.add(Dense(units=1, activation="sigmoid"))
 model.compile(optimizer='adam', loss='mean_squared_error', metrics='accuracy', )
 
 # 10 Trainingsdurchläufe
-model.fit(x=x_train, y=y_train, batch_size=32, epochs=10, validation_data=(x_val, y_val))
+model.fit(x=x_train, y=y_train, batch_size=32, epochs=10, validation_data=(x_val, y_val), verbose=1, )
 
 #
 test = [
