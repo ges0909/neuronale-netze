@@ -2,6 +2,10 @@
 
 from keras import *
 
+# from keras import __version__
+
+# (__version__)
+
 # neuronales Netz erzeugen
 model = models.Sequential()
 
